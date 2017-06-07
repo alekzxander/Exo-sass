@@ -1,0 +1,153 @@
+.nav-center {
+  display: flex;
+  justify-content: space-around; }
+
+body {
+  margin: 0; }
+
+header {
+  background: url(../images/header.jpg) no-repeat;
+  height: 600px;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed; }
+  header img {
+    padding-top: 50px;
+    padding-left: 40px;
+    width: 200px; }
+  header h1 {
+    font-size: 70px;
+    font-family: "Francois One", sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 120px;
+    margin-bottom: 20px; }
+  header strong {
+    color: yellow; }
+  header p {
+    color: white;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: "PT sans Caption", sans-serif;
+    padding-bottom: 40px; }
+  header button {
+    width: 200px;
+    height: 50px;
+    color: white;
+    border-radius: 4px; }
+  header .but-pad {
+    display: flex;
+    justify-content: center; }
+  header a {
+    padding: 20px; }
+  header .dow {
+    background-color: #FFDE00;
+    border: none; }
+  header .up {
+    background-color: transparent;
+    border: solid 1px white; }
+  header nav ul {
+    padding-top: 35px;
+    display: flex;
+    justify-content: flex-end; }
+    header nav ul li {
+      font-family: "Josefin Sans", sans-serif;
+      list-style: none;
+      color: white;
+      padding: 19px; }
+  header nav img {
+    padding-top: 20px;
+    padding-left: 40px; }
+
+article {
+  font-family: "Francois One", sans-serif;
+  text-align: center;
+  margin: 5% 15% 5% 15%; }
+  article h1 {
+    color: #545454;
+    font-size: sizeh1; }
+  article p {
+    color: #8C9597; }
+
+.grille-img {
+  display: flex;
+  align-items: stretch; }
+  .grille-img img {
+    width: 320px; }
+
+.project {
+  background-image: url(https://cdn.colorlib.com/illdy/wp-content/themes/illdy/layout/images/front-page/pattern.png);
+  font-family: "Francois One", sans-serif;
+  height: 200px;
+  text-align: center; }
+  .project p {
+    padding-top: -20px;
+    color: #8C9597;
+    margin: 0% 15% 5% 15%; }
+
+h2 {
+  color: #545454;
+  padding-top: 60px;
+  font-size: 31px;
+  font-family: "Francois One", sans-serif; }
+
+.container {
+  justify-content: center;
+  justify-content: space-between;
+  display: flex;
+  margin: 0% 15% 5% 15%; }
+  .container .element {
+    font-family: "Francois One", sans-serif;
+    width: 250px;
+    text-align: center; }
+    .container .element i {
+      font-size: 60px; }
+    .container .element p {
+      color: #8C9597; }
+
+.section-foot {
+  font-family: "Francois One", sans-serif;
+  background-color: #222F36;
+  color: white;
+  height: 800px; }
+  .section-foot p {
+    color: #8C9597;
+    margin-bottom: 30px;
+    text-align: center; }
+  .section-foot h1 {
+    padding-top: 40px;
+    text-align: center; }
+  .section-foot button {
+    background-color: #FFDE00;
+    border: none;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    color: white;
+    border-radius: 4px;
+    margin-bottom: 50px; }
+  .section-foot .cont-section {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    padding: -20px; }
+    .section-foot .cont-section .element-section {
+      width: 300px;
+      height: 500px;
+      background-color: white; }
+      .section-foot .cont-section .element-section img {
+        width: 300px; }
+    .section-foot .cont-section h3 {
+      font-family: "PT sans Caption", sans-serif;
+      padding-bottom: 40px;
+      color: #545454; }
+    .section-foot .cont-section p {
+      padding-bottom: 40px;
+      font-family: #8C9597; }
+    .section-foot .cont-section a {
+      color: #FFDE00;
+      border: none; }
+
+/*# sourceMappingURL=style.css.map */
